@@ -34,4 +34,4 @@ $ git commit --message "First Commit"   # Commit!
 
 1. Use `git log` or `git show` again to see that your commit isn't on master.
 1. Merge your "other" branch into master with `git merge new_branch_name`
-1. Observe how you changes are now in master! Read that whole log output.
+1. Read that whole log output. Use `git log` again and observe how your commit is now in master!
