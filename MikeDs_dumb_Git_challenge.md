@@ -1,4 +1,4 @@
-## Exercise 0
+## Challenge 0
 ### Create some files and dump some text into them.
 
 ```
@@ -11,7 +11,7 @@ $ git add *                             # Add all the files you just created
 $ git commit --message "First Commit"   # Commit!
 ```
 
-## Exercise 1
+## Challenge 1
 ### Making a branch and making commits on it
 
 1. Make a branch with `git branch new_branch_name`
@@ -25,7 +25,7 @@ $ git commit --message "First Commit"   # Commit!
 
 1. Check the logs to see your commit with `git log` or `git show` to only show the last commit!
 
-## Exercise 2
+## Challenge 2
 ### Merging your branch into master
 
 1. Switch back to the master branch with `git checkout master`
@@ -36,7 +36,7 @@ $ git commit --message "First Commit"   # Commit!
 1. Merge your "other" branch into master with `git merge new_branch_name`
 1. Observe how you changes are now in master! Read that whole log output.
 
-## Exercise 3a
+## Challenge 3a
 ### Creating a merge conflict to look at!
 
 1. Create a NEW branch from your current location (the HEAD of master) and
@@ -47,7 +47,7 @@ $ git commit --message "First Commit"   # Commit!
    other branch.
 1. TRY to merge the branch into master with `git merge your_other_branch_name`
 
-## Exercise 3b
+## Challenge 3b
 ### Examining and resolving the merge conflict
 
 1. Execute `git status` and observe that you have a new category.
@@ -77,10 +77,10 @@ Non lectus sagittis semper!!!!
 1. Use `git add the_file_name_from_the_unmerged_paths` to "stage" the file.
 1. Run `git status` again and see how everything is back to normal!
 
-## Exercise 4
+## Challenge 4
 ### Rebasing with no problems
 
-1. Go back to the branch you in the Exercise 1.
+1. Go back to the branch you in the Challenge 1.
 1. Run `git log` to see that it is just as you left it.
 1. Make an edit to some file and commit those changes.
 1. Execute `git rebase master` to:
@@ -89,7 +89,7 @@ Non lectus sagittis semper!!!!
     1. Finally, "replay" the commits that have been made on this branch that follow after the most recent common commit.
 1. Observe with `git log` that I am not lying to you.
 
-## Exercise 5
+## Challenge 5
 ### Rebasing with conflicts and interactive rebasing.
 
 Oh man, see me instead. Or request that I just finish this. I got bored.
